@@ -27,11 +27,12 @@ class Caprichos:
         for i, producto in enumerate(self.productos):
             print(f"{i+1}.- {producto}")
 
+
     def agregar_producto(self, producto, cantidad):
         # Agregamos un producto al carrito
         sub_total = producto.precio * cantidad
         self.carrito.append({"producto": producto, "cantidad": cantidad, "sub_total": sub_total})
-
+        print(f"Mostrar el total de su compra precione 7")
     def calcular_total(self):
         # Calculamos el total
         total = sum(item["sub_total"] for item in self.carrito)
@@ -58,7 +59,7 @@ class Caprichos:
 def main():
     # Creamos una instancia de la clase Tienda
     tienda = Caprichos()
-    # Mientras el usuario no seleccione la opción 6
+    # Mientras el usuario no seleccione la opción 7
     while True:
         # Mostramos los productos disponibles
         tienda.mostrar_productos()
