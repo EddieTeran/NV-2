@@ -44,7 +44,7 @@ def mostrar_menu():
         print("0 - Salir")
 
         # para obtener la entrada del usuario
-        eleccion = input("Elige un script para ver su código, '3' para ejecutar o '0' para salir: ")
+        eleccion = input("Elige un script para ver su código, '7' para ejecutar o '0' para salir: ")
         if eleccion == '0':
             # Salir del programa
             break
