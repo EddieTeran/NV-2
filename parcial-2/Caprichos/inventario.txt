@@ -1,0 +1,4 @@
+1,Camisa,25,25.5
+2,Pantalon,36,42.5
+3,Medias,56,3.8
+4,Lenceria ,35,18.5
